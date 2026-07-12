@@ -1,0 +1,11 @@
+allowBuilds:
+  better-sqlite3: false
+  canvas: false
+  core-js: false
+  es5-ext: false
+  esbuild: false
+  sharp: true
+  unrs-resolver: true
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver

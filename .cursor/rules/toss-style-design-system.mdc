@@ -1,0 +1,53 @@
+---
+description: Toss-style UI — spacing, typography, grayscale, cards, dark mode, accessibility
+globs: "**/*.{tsx,jsx,css,scss}"
+alwaysApply: false
+---
+
+# Toss-Style Design System
+
+## Design Direction
+
+- Quiet, high-trust product UI: clear hierarchy, generous spacing, minimal ornament.
+- One primary accent color; grayscale for most structure.
+- No decorative gradients, heavy shadows, or competing accent colors.
+
+## Typography
+
+- Strict type scale: page title, section title, body, supporting text, metadata.
+- Prefer font weight and color over large size jumps.
+- Never pure black text — use dark grayscale foreground.
+- Metrics: number dominant, unit smaller but legible.
+
+## Layout and Rhythm
+
+- Consistent spacing tokens; related content close, unrelated separated.
+- Section rhythm: summary → details → action → context.
+- No nested cards or excessive borders.
+
+## Cards and Surfaces
+
+- Cards only for grouped content that needs a surface.
+- Restrained radius; subtle shadow OR border, not both heavily.
+- Low shadow opacity; no important controls on low-contrast surfaces.
+
+## Color
+
+- Accent for primary actions, selected state, links.
+- Semantic colors for status only (success, warning, error, info).
+- Disabled/secondary in grayscale; never status by color alone.
+
+## Dark Mode
+
+- Rebuild grayscale scale for dark mode; don't invert.
+- Reduce accent intensity on dark backgrounds.
+- Test charts, cards, forms in both modes.
+
+## Accessibility
+
+- WCAG AA contrast; visible focus states; large tap targets.
+- Semantic HTML and labels before ARIA; respect reduced motion.
+
+## Common Mistakes
+
+- One-off spacing values; multiple accent colors; card overuse; hero typography in dense screens.

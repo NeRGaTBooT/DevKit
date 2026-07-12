@@ -1,0 +1,33 @@
+---
+description: Создание React-компонентов — поиск существующих, shadcn/ui, TypeScript
+globs: "**/*.{tsx,jsx}"
+alwaysApply: false
+---
+
+# React Components
+
+## Before Creating
+
+1. Check if a similar component already exists in:
+   - `src/components/`
+   - `src/components/ui/` (shadcn/ui)
+2. Reuse or extend existing components when possible.
+
+## New Component Checklist
+
+- TypeScript with typed props (interface or type).
+- Tailwind CSS for styling; follow Toss-style design rules.
+- shadcn/ui primitives from `@/components/ui/` when applicable.
+- App-specific components in `@/components/`.
+- Responsive layout and accessibility (labels, focus, contrast).
+- Loading and error states where data is fetched.
+
+## Implementation
+
+- Implement the component directly in the project — do not ask for confirmation before coding.
+- Match existing naming, file structure, and export patterns.
+- Only write code necessary for the task; avoid rewriting unrelated files.
+
+## Optional v0 Reference
+
+If a complex UI needs exploration, you may generate a v0.dev prompt link for reference, then adapt the result to project structure and design system.
