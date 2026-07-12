@@ -11,7 +11,6 @@
 <p align="center">
   <a href="https://NeRGaTBooT.github.io/DevKit/">GitHub Pages</a> ·
   <a href="https://github.com/NeRGaTBooT/DevKit">Репозиторий</a> ·
-  <a href="docs/DEPLOY-GITHUB-PAGES.md">Деплой</a>
 </p>
 
 ---
