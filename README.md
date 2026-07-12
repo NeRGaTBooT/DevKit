@@ -59,57 +59,6 @@
 | [Image Cropper](https://NeRGaTBooT.github.io/DevKit/image-cropper/) | Обрезка с пресетами (avatar, OG и др.) |
 | [PDF Merge / Split](https://NeRGaTBooT.github.io/DevKit/pdf-merge-split/) | Объединение и разделение PDF |
 
----
-
-## Как открыть на GitHub Pages
-
-Сайт уже опубликован. Достаточно перейти по ссылке:
-
-### https://NeRGaTBooT.github.io/DevKit/
-
-Прямые ссылки на популярные инструменты:
-
-```
-https://NeRGaTBooT.github.io/DevKit/gradient/
-https://NeRGaTBooT.github.io/DevKit/flexbox/
-https://NeRGaTBooT.github.io/DevKit/pdf-merge-split/
-https://NeRGaTBooT.github.io/DevKit/snippets/
-```
-
-> **Важно:** адрес всегда с `/DevKit/` в пути — это project page репозитория. Корень `github.io/` без имени репозитория не откроет сайт.
-
-### Если сайт не открывается
-
-1. Подождите 2–5 минут после последнего деплоя
-2. Проверьте вкладку **Actions** в репозитории — workflow **Deploy GitHub Pages** должен быть зелёным
-3. Убедитесь, что в **Settings → Pages** источник — **GitHub Actions**
-
-Подробная инструкция по деплою и обновлению: [`docs/DEPLOY-GITHUB-PAGES.md`](docs/DEPLOY-GITHUB-PAGES.md)
-
----
-
-## Локальная разработка
-
-```bash
-# установка зависимостей
-pnpm install
-
-# dev-сервер (http://localhost:3000)
-pnpm dev
-
-# сборка под GitHub Pages
-pnpm build:pages
-
-# локальный preview как на GH Pages (http://localhost:3000/DevKit/)
-pnpm preview:pages
-```
-
-Если порт 3000 занят dev-сервером:
-
-```bash
-# Windows PowerShell
-$env:PORT="3457"; pnpm preview:pages
-```
 
 ---
 
