@@ -1,4 +1,4 @@
-const CACHE_NAME = "devkit-static-v1";
+const CACHE_NAME = "devkit-static-v2";
 const BASE_PATH = "";
 
 const PRECACHE_URLS = [

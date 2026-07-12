@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:pages": "cross-env GITHUB_PAGES=true NEXT_PUBLIC_BASE_PATH=/DevKit next build && node scripts/prepare-gh-pages.mjs",
+    "build:pages": "cross-env GITHUB_PAGES=true NEXT_PUBLIC_BASE_PATH=/DevKit next build && node scripts/prepare-gh-pages.mjs && cross-env NEXT_PUBLIC_BASE_PATH=/DevKit node scripts/verify-gh-pages.mjs",
     "preview:pages": "node scripts/preview-gh-pages.mjs",
     "start": "next start",
     "lint": "eslint .",
