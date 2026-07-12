@@ -23,8 +23,14 @@
 
 # misc
 .DS_Store
+Thumbs.db
 *.pem
 .cache/
+
+# IDE / editor (local only)
+.cursor/
+.vscode/
+.idea/
 
 # debug
 npm-debug.log*
